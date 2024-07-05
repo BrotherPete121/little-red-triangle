@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/snowy_peaks.jpg'); /* Replace with the actual path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Ensure full height */
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent background */
+    font-family: Comic Sans MS; /* Example font change */
+    color: #fff;
+    text-align: center; /* Center text alignment */
+}
+
+header h1 {
+    font-size: 40px; /* Set the font size to 40px */
+    margin-bottom: 25px; /* Add some space below the header */
+}
+
+.header-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust height */
+    margin-top: 10px; /* Space above the logo */
+    margin-bottom: -40px; /* Space below the logo */
+}
+
+.header-subtitle {
+    font-size: 25px; /* Half the font size of the header */
+    text-align: center; /* Center align the subtitle */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 75%; /* Adjusted width */
+    max-width: 1400px; /* Increased max-width */
+    margin: 20px 0;
+}
+
+.widget {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px; /* Add border-radius to round the edges */
+}
+
+.widget p {
+    line-height: 1.6;
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    margin: 0px 0; /* Adjusted vertical margin to minimize space */
+}
+
+.widget-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px; /* Add space below the image */
+    padding: 10px; /* Padding to match the iframe */
+    border-radius: 45px; /* Add border-radius to round the edges */
+}
+
+.widget iframe {
+    width: 100%;
+    height: 625px; /* Adjust the height as needed */
+    padding: 10px; /* Padding to match .widget-image */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    margin-top: -15px;
+}
+
+.social-links {
+    margin-top: auto; /* Pushes the social links to the bottom */
+    margin-bottom: 40px; /* Optional margin for spacing */
+    text-align: center; /* Center align social links */
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px; /* Adjust horizontal spacing */
+}
+
+.social-link img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    transition: filter 0.3s ease, background-color 0.3s ease; /* Add transition for smooth effect */
+    background-color: black; /* Set background color to black */
+    border-radius: 8px; /* Rounded corners */
+    padding: 5px; /* Padding inside the border */
+    border: 1px solid transparent; /* Transparent border */
+}
+
+.social-link img:hover {
+    filter: brightness(80%); /* Adjust brightness to darken on hover */
+    background-color: rgba(90, 79, 79, 0.8); /* Light grey background color on hover */
+}
