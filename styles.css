@@ -82,14 +82,22 @@ header h1 {
     line-height: 1.4;
     font-size: 25px; /* Adjust the font size as needed */
     font-weight: bold; /* Make the text bold */
-    margin: 0px 0; /* Adjusted vertical margin to minimize space */
+    margin: 0; /* Adjusted vertical margin to minimize space */
+}
+
+.widget p:first-of-type {
+    margin-top: 10px; /* Adjust this value to reduce space below the image */
+}
+
+.widget p:last-of-type {
+    margin-bottom: -20px; /* Small bottom margin for spacing */
 }
 
 .widget-image {
     width: 100%;
     height: auto;
     max-width: 100%;
-    margin-bottom: 20px; /* Add space below the image */
+    margin-bottom: 0; /* Reduce space below the image */
     padding: 10px; /* Padding to match the iframe */
     border-radius: 45px; /* Add border-radius to round the edges */
 }
@@ -99,7 +107,7 @@ header h1 {
     height: 625px; /* Adjust the height as needed */
     padding: 10px; /* Padding to match .widget-image */
     box-sizing: border-box; /* Ensure padding is included in width */
-    margin-top: -15px;
+    margin-top: -20px; /* Negative top margin to reduce space */
 }
 
 .social-links {
@@ -159,12 +167,22 @@ header h1 {
         line-height: 1.4; /* Adjust line-height for better spacing */
     }
 
+    .widget p:first-of-type {
+        margin-top: 0px; /* Adjust this value to reduce space below the image */
+    }
+
+    .widget p:last-of-type {
+        margin-bottom: -30px; /* Ensure no space below the paragraph */
+    }
+
     .widget iframe {
         height: 650px; /* Reduce iframe height for smaller screens */
+        margin-top: -20px; /* Negative top margin to reduce space */
     }
 
     .widget-image {
         padding: 10px; /* Adjust padding for better visibility */
+        margin-bottom: 0; /* Reduce space below the image */
     }
 
     .social-link img {
