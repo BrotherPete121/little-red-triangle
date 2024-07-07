@@ -150,6 +150,7 @@ header h1 {
 
     .widget {
         margin: 10px 0; /* Adjust margin for stacked widgets */
+        margin-top: -5px
         padding: 15px; /* Slightly increase padding for visibility */
     }
 
