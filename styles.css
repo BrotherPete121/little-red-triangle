@@ -160,7 +160,7 @@ header h1 {
     }
 
     .widget iframe {
-        height: 500px; /* Reduce iframe height for smaller screens */
+        height: 525px; /* Reduce iframe height for smaller screens */
     }
 
     .widget-image {
