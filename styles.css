@@ -86,7 +86,7 @@ header h1 {
 }
 
 .widget p:first-of-type {
-    margin-top: 10px; /* Adjust this value to reduce space below the image */
+    margin-top: 5px; /* Adjust this value to reduce space below the image */
 }
 
 .widget p:last-of-type {
