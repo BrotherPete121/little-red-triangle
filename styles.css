@@ -127,10 +127,13 @@ header h1 {
     width: 50px; /* Adjust size as needed */
     height: auto;
     transition: filter 0.3s ease, background-color 0.3s ease; /* Add transition for smooth effect */
-    background-color: black; /* Set background color to black */
     border-radius: 8px; /* Rounded corners */
     padding: 5px; /* Padding inside the border */
     border: 1px solid transparent; /* Transparent border */
+}
+
+.social-link:nth-child(21) img {
+    background-color: black /* Change to desired color */
 }
 
 /* Different background for the second social link */
