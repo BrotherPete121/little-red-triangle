@@ -116,11 +116,6 @@ header h1 {
     text-align: center; /* Center align social links */
 }
 
-.social-link {
-    display: inline-block;
-    margin: 0 10px; /* Adjust horizontal spacing */
-}
-
 .social-link img {
     width: 50px; /* Adjust size as needed */
     height: auto;
@@ -131,9 +126,13 @@ header h1 {
     border: 1px solid transparent; /* Transparent border */
 }
 
+/* Different background for the second social link */
+.social-link:nth-child(2) img {
+    background-color: #504ecf/* Change to desired color */
+}
+
 .social-link img:hover {
-    filter: brightness(80%); /* Adjust brightness to darken on hover */
-    background-color: rgba(90, 79, 79, 0.8); /* Light grey background color on hover */
+    opacity: 0.6; /* Adjust opacity to make it more opaque on hover */
 }
 
 /* Media Queries */
