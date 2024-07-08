@@ -91,6 +91,8 @@ header h1 {
 
 .widget p:last-of-type {
     margin-bottom: -20px; /* Small bottom margin for spacing */
+    font-size: 20px;
+    font-style: italic;
 }
 
 .widget-image {
