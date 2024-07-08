@@ -114,6 +114,13 @@ header h1 {
     margin-top: auto; /* Pushes the social links to the bottom */
     margin-bottom: 40px; /* Optional margin for spacing */
     text-align: center; /* Center align social links */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the items horizontally */
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px; /* Adjust horizontal spacing */
 }
 
 .social-link img {
