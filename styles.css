@@ -135,7 +135,7 @@ header h1 {
 
 /* Different background for the second social link */
 .social-link:nth-child(2) img {
-    background-color: 504ecf/* Change to desired color */
+    background-color: 504ecf /* Change to desired color */
 }
 
 .social-link img:hover {
