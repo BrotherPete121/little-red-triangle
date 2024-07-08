@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Comic Sans MS;
     background-image: url('images/snowy_peaks.jpg'); /* Replace with the actual path to your background image */
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,6 +93,19 @@ header h1 {
     margin-bottom: -20px; /* Small bottom margin for spacing */
     font-size: 20px;
     font-style: italic;
+}
+
+.widget .title {
+    color: rgb(0, 0, 0); /* Adjust color for the title */
+}
+
+/* Specific styles for each subtitle */
+#subtitle1 {
+    color: green; /* Adjust color for the first subtitle */
+}
+
+#subtitle2 {
+    color: rgb(202, 5, 5); /* Adjust color for the second subtitle */
 }
 
 .widget-image {
