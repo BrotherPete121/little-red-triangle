@@ -132,7 +132,7 @@ header h1 {
     border: 1px solid transparent; /* Transparent border */
 }
 
-.social-link:nth-child(21) img {
+.social-link:nth-child(1) img {
     background-color: black /* Change to desired color */
 }
 
